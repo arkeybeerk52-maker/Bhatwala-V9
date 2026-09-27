@@ -20,7 +20,7 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          channel: stable
+          channel: flutter-version: 3.28.5
 
       - name: Extract project ZIP
         run: |
